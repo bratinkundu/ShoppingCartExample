@@ -1,0 +1,25 @@
+<!-- <p>cart works!</p> -->
+
+<h3>Your Cart</h3>
+<hr/>
+<table class="table"  >
+  <thead>
+  <tr style="background-color: antiquewhite;">
+    <th scope="col">#</th>
+    <th scope="col">Product Name</th>
+    <th scope="col">Product Description</th>
+    <th scope="col">Product Price</th>
+  </tr>
+  </thead>
+  <tbody>
+
+        <tr *ngFor="let item of items">
+          <th scope="row"><img src ="{{item.image}}" style="width: 50px; height: 50px;"></th>
+          <td >{{item.name}}</td>
+          <td >{{item.description }}</td>
+          <td>{{item.price | currency}}</td> 
+        </tr>
+    
+  
+  </tbody>
+</table>
