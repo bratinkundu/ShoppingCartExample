@@ -26,13 +26,6 @@ export const products = [
       price: 1050,
       description: 'Core i5 8th Gen macOS Laptop (8 GB, 128 GB SSD, 33.78 cm, Gold)',
       features : '33.78 cm (13.3”) | Quad HD (Resolution to Term Rule),1.6 GHz 8th Generation Dual-core Intel Core i5 Processor,8 GB LPDDR3 | 128 GB PCIe-based SSD,Intel UHD 617 Graphics.Mac OS Catalina'
-    },
-    {
-      image :'https://images-na.ssl-images-amazon.com/images/I/31A-q8ctkoL.jpg',
-      name: 'Lenovo Yoga (MVFM2HN/A)',
-      price: 1050,
-      description: 'Core i5 8th Gen macOS Laptop (8 GB, 128 GB SSD, 33.78 cm, Gold)',
-      features : '33.78 cm (13.3”) | Quad HD (Resolution to Term Rule),1.6 GHz 8th Generation Dual-core Intel Core i5 Processor,8 GB LPDDR3 | 128 GB PCIe-based SSD,Intel UHD 617 Graphics.Mac OS Catalina'
     }
   ];
   
